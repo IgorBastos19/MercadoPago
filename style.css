@@ -1,0 +1,101 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.superior {
+    background-color: rgb(17, 17, 161);
+    border-radius: 0 0 200px 0;
+    height: 10vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.superior h1 {
+    text-shadow: 1px 1px 2px rgb(0, 255, 255), 0 0 1em rgb(0, 255, 255), 0 0 0.2em rgb(0, 255, 255);
+    color: white;
+    letter-spacing: 6px;
+}
+
+.superior h2 {
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+    color: rgb(17, 17, 161);
+}
+
+.inferior {
+    background-color: white;
+    margin: 30px 0px;
+}
+
+.inferior .um {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+
+.inferior .um img {
+    width: 100%;
+}
+
+
+.inferior .dois {
+    width: 60%;
+    float: right;
+}
+
+.inferior .dois li {
+    list-style: circle;
+}
+
+
+.dois #l1 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.inferior .tres {
+    text-align: center;
+    width: 80%;
+    font-weight: bold;
+}
+
+.inferior .quatro {
+    margin: 30px 0;
+    background-color: rgb(17, 17, 161);
+    border-radius: 0 0 0 200px;
+    height: 10vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.inferior .quatro p {
+    color: white;
+}
+
+.inferior .quatro span {
+    font-size: 1.3rem;
+}
+
+.inferior .quatro span:hover {
+    font-size: 1.45rem;
+    cursor: pointer;
+}
+
+.inferior .quatro a {
+    color: white;
+}
+
+.inferior .footer {
+    margin: 30px 0;
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
